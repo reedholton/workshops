@@ -435,3 +435,10 @@ Stop and delete everything you created — DMS resources cost real money per hou
 - DMS replication instance (`hr-cdc-rep-<U>`)
 - RDS instance(s) (`hr-db-<U>`, and `hr-target-<U>` if you did Option A)
 - IAM role (`dms-cdc-s3-role-oracle-<U>`) if you created one manually
+
+## References
+
+1. https://docs.aws.amazon.com/dms/latest/sbs/oracle-s3-data-lake.html
+2. https://aws.amazon.com/blogs/database/achieve-a-high-performance-migration-to-amazon-rds-for-oracle-from-on-premises-oracle-with-aws-dms
+3. https://docs.aws.amazon.com/dms/latest/sbs/chap-manageddatabases.oracle2rds.html
+
