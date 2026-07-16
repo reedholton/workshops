@@ -43,9 +43,21 @@
       "Resource": "*"
     },
     {
+      "Sid": "FullAccessCloudWatchLogs",
+      "Effect": "Allow",
+      "Action": "logs:*",
+      "Resource": "*"
+    },
+    {
       "Sid": "FullAccessCloudFront",
       "Effect": "Allow",
       "Action": "cloudfront:*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "FullAccessAPIGateway",
+      "Effect": "Allow",
+      "Action": "apigateway:*",
       "Resource": "*"
     },
     {
